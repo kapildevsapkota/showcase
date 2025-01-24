@@ -1,5 +1,5 @@
 import WebsiteBox from "@/components/WebsiteBox"
-import Image from "next/image"
+
 
 const websites = [
   {
