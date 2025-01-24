@@ -23,7 +23,7 @@ export default function RootLayout({
           <Gear className="absolute -left-16 -top-16 h-48 w-48 animate-gear-spin text-white/10" />
           <Gear className="absolute -right-16 -top-16 h-48 w-48 animate-gear-spin text-white/10" />
           <div className="container relative z-10 mx-auto px-4">
-            <div className="flex flex-col items-center space-y-6">
+            <div className="flex flex-col items-center space-y-6">{}
               <Image
                 src="/image.png"
                 alt="Main Logo"
