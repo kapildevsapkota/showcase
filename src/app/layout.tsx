@@ -31,24 +31,14 @@ export default function RootLayout({
                 height={120}
                 className="rounded-full bg-white p-2"
               />
-              <nav className="rounded-full bg-white/10 px-6 py-2 backdrop-blur-sm">
-                <ul className="flex items-center space-x-8">
-                  {["JOB BRIZ", "B2B", "BUSINESSCLIINC", "QHSEF", "VOTING"].map((item) => (
-                    <li key={item}>
-                      <a href="#" className="text-sm font-medium text-white hover:text-white/80">
-                        {item}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
+              
+             
+             
             </div>
           </div>
         </header>
         <main className="container mx-auto px-4 py-12">{children}</main>
-        <footer className="mt-auto bg-gray-900 py-6 text-center text-white">
-          <p>&copy; 2024 Multi-Website Showcase. All rights reserved.</p>
-        </footer>
+        
       </body>
     </html>
   )

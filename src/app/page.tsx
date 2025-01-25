@@ -8,12 +8,7 @@ const websites = [
     description: "Additional services and solutions for your needs.",
     url: "https://biratexpo.cim.org.np/",
   },
-  {
-    name: "JOB BRIZ",
-    logo: "/jobbriz.png",
-    description: "Your gateway to career opportunities and professional growth.",
-    url: "https://jobbriz-fe.vercel.app/",
-  },
+  
   {
     name: "B2B",
     logo: "/b2b.svg",
@@ -26,6 +21,13 @@ const websites = [
     description: "Expert business consulting for sustainable success.",
     url: "https://businessclinic.vercel.app/",
   },
+  
+  {
+    name: "MDMU",
+    logo: "/mdmu.png",
+    description: "Mero Desh Merai Upadhan.",
+    url: "https://mdmu.vercel.app/",
+  },
   {
     name: "QHSEF",
     logo: "/logo.png",
@@ -33,10 +35,10 @@ const websites = [
     url: "https://qhsef.vercel.app/",
   },
   {
-    name: "VOTING",
-    logo: "/cc.png",
-    description: "Secure and transparent digital voting solutions.",
-    url: "https://voting-cim.vercel.app/",
+    name: "JOB BRIZ",
+    logo: "/jobbriz.png",
+    description: "Your gateway to career opportunities and professional growth.",
+    url: "https://jobbriz-fe.vercel.app/",
   },
   
 ]
@@ -44,7 +46,7 @@ const websites = [
 export default function Home() {
   return (
     <div>
-      <h1 className="mb-12 text-center text-4xl font-bold text-gray-900">Our Platforms</h1>
+      <h1 className="mb-12 text-center text-4xl font-bold text-gray-900">CIM Center For Excellence</h1>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {websites.map((website) => (
           <WebsiteBox
